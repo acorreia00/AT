@@ -1,0 +1,148 @@
+(*
+T: PROGRAM ParagemEmergenciaLadder
+FW: NO
+CI#: 37
+QSL: 23
+QVE: 23
+QVPC: 23
+QPar: 0
+QFBI: 6
+*)
+@V 1 6 0
+TP_2	1	VAR	@FB:36
+		     
+
+;
+
+@V 1 7 0
+TP_1	2	VAR	@FB:36
+		     
+
+;
+
+@V 1 12 0
+SE	3	VAR_EXTERNAL	@TYP:1
+@RV 303		     
+
+;
+
+@V 1 13 0
+H1	4	VAR_EXTERNAL	@TYP:1
+@RV 339		     
+
+;
+
+@V 1 14 0
+H2	5	VAR_EXTERNAL	@TYP:1
+@RV 340		     
+
+;
+
+@V 1 15 0
+P1	6	VAR_EXTERNAL	@TYP:1
+@RV 326		     
+
+;
+
+@V 1 16 0
+F1	7	VAR_EXTERNAL	@TYP:1
+@RV 325		     
+
+;
+
+@V 1 21 0
+TON_4	8	VAR	@FB:38
+		     
+
+;
+
+@V 1 22 0
+TON_2	9	VAR	@FB:38
+		     
+
+;
+
+@V 1 23 0
+TON_1	10	VAR	@FB:38
+		     
+
+;
+
+@V 1 24 0
+MemH1	11	VAR	@TYP:1
+		     
+
+;
+
+@V 1 25 0
+MemH2	12	VAR	@TYP:1
+		     
+
+;
+
+@V 1 30 0
+CondStop	13	VAR_EXTERNAL	@TYP:1
+@RV 344		     
+
+;
+
+@V 1 31 0
+KM1	14	VAR_EXTERNAL	@TYP:1
+@RV 327		     
+
+;
+
+@V 1 32 0
+KM2	15	VAR_EXTERNAL	@TYP:1
+@RV 330		     
+
+;
+
+@V 1 33 0
+KM3	16	VAR_EXTERNAL	@TYP:1
+@RV 335		     
+
+;
+
+@V 1 38 0
+TON_3	17	VAR	@FB:38
+		     
+
+;
+
+@V 1 43 0
+SP1	18	VAR_EXTERNAL	@TYP:1
+@RV 305		     
+
+;
+
+@V 1 44 0
+SP5	19	VAR_EXTERNAL	@TYP:1
+@RV 315		     
+
+;
+
+@V 1 45 0
+SP6	20	VAR_EXTERNAL	@TYP:1
+@RV 316		     
+
+;
+
+@V 1 46 0
+SP3	21	VAR_EXTERNAL	@TYP:1
+@RV 308		     
+
+;
+
+
+ParagemEmergenciaLadder@@6	22	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 8 0
+ParagemEmergenciaLadder@@8	23	VAR	@TYP:1
+		     
+
+;
+PFW: RDT

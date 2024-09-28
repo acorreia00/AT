@@ -1,0 +1,63 @@
+(*
+T: FUNCTION_BLOCK RS232_RECEIVE
+FW: YES	NO_VARIANT RS232_RECEIVE SKIP_NOTHING
+CI#: 50
+QSL: 0
+QVE: 9
+QPar: 9
+QFBI: 0
+*)
+
+REQUEST	1	VAR_INPUT	@TYP:1
+		     
+
+;
+
+
+DONE	2	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+
+ERROR	3	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+
+STATUS	4	VAR_OUTPUT	@TYP:18
+		     
+
+;
+
+
+BUFFER_NOT_EMPTY	5	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+
+BUFFER_FULL	6	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+
+RECEIVE_BUFFER_COUNT	7	VAR_OUTPUT	@TYP:3
+		     
+
+;
+
+
+DATA_COUNT	8	VAR_OUTPUT	@TYP:3
+		     
+
+;
+
+
+DATA	9	VAR_IN_OUT	@TYP:24
+		     
+
+;
+

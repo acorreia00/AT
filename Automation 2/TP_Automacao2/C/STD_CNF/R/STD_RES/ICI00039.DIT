@@ -1,0 +1,820 @@
+(*
+T: PROGRAM Armazenamento
+FW: NO
+CI#: 39
+QSL: 135
+QVE: 135
+QVPC: 135
+QPar: 0
+QFBI: 2
+*)
+@V 1 6 0
+SA	1	VAR_EXTERNAL	@TYP:1
+@RV 304		     
+
+;
+
+@V 1 7 0
+SP5	2	VAR_EXTERNAL	@TYP:1
+@RV 315		     
+
+;
+
+@V 1 12 0
+MemArmazenamentoFim	3	VAR	@TYP:1
+		     
+
+;
+
+@V 1 17 0
+SP6	4	VAR_EXTERNAL	@TYP:1
+@RV 316		     
+
+;
+
+@V 1 18 0
+FCM4D	5	VAR_EXTERNAL	@TYP:1
+@RV 322		     
+
+;
+
+@V 1 19 0
+SCA	6	VAR_EXTERNAL	@TYP:1
+@RV 323		     
+
+;
+
+@V 1 20 0
+SCB	7	VAR_EXTERNAL	@TYP:1
+@RV 324		     
+
+;
+
+@V 1 25 0
+MemA	8	VAR	@TYP:1
+		     
+
+;
+
+@V 1 30 0
+FCCEI	9	VAR_EXTERNAL	@TYP:1
+@RV 318		     
+
+;
+
+@V 1 31 0
+FCCES	10	VAR_EXTERNAL	@TYP:1
+@RV 317		     
+
+;
+
+@V 1 32 0
+FCM4E	11	VAR_EXTERNAL	@TYP:1
+@RV 321		     
+
+;
+
+@V 1 33 0
+FCM4C	12	VAR_EXTERNAL	@TYP:1
+@RV 320		     
+
+;
+
+@V 1 34 0
+FCG	13	VAR_EXTERNAL	@TYP:1
+@RV 319		     
+
+;
+
+@V 1 35 0
+H1	14	VAR_EXTERNAL	@TYP:1
+@RV 339		     
+
+;
+
+@V 1 36 0
+KM3	15	VAR_EXTERNAL	@TYP:1
+@RV 335		     
+
+;
+
+@V 1 37 0
+KE1	16	VAR_EXTERNAL	@TYP:1
+@RV 336		     
+
+;
+
+@V 1 38 0
+KG	17	VAR_EXTERNAL	@TYP:1
+@RV 338		     
+
+;
+
+@V 1 39 0
+KE2	18	VAR_EXTERNAL	@TYP:1
+@RV 337		     
+
+;
+
+@V 1 40 0
+KM4E	19	VAR_EXTERNAL	@TYP:1
+@RV 341		     
+
+;
+
+@V 1 41 0
+KM4D	20	VAR_EXTERNAL	@TYP:1
+@RV 342		     
+
+;
+
+@V 1 46 0
+CTU_2	21	VAR	@FB:40
+		     
+
+;
+
+@V 1 51 0
+CondStop	22	VAR_EXTERNAL	@TYP:1
+@RV 344		     
+
+;
+
+
+Armazenamento@@131	23	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+Armazenamento@@132	24	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 0 0
+S001.X	25	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+PFW: RDT
+@V 2 0 0
+S001@OLD	26	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+PFW: RDT
+@V 2 0 0
+S001@FLAG	27	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 7 0
+S002.X	28	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 7 0
+S002@OLD	29	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 7 0
+S002@FLAG	30	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 13 0
+S003.X	31	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 13 0
+S003@OLD	32	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 13 0
+S003@FLAG	33	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 15 0
+S004.X	34	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 15 0
+S004@OLD	35	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 15 0
+S004@FLAG	36	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 20 0
+S021.X	37	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 20 0
+S021@OLD	38	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 20 0
+S021@FLAG	39	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 24 0
+S023.X	40	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 24 0
+S023@OLD	41	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 24 0
+S023@FLAG	42	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 25 0
+S009.X	43	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 25 0
+S009@OLD	44	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 25 0
+S009@FLAG	45	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 29 0
+S012.X	46	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 29 0
+S012@OLD	47	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 29 0
+S012@FLAG	48	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 47 0
+S005.X	49	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 47 0
+S005@OLD	50	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 47 0
+S005@FLAG	51	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 49 0
+S006.X	52	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 49 0
+S006@OLD	53	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 49 0
+S006@FLAG	54	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 71 0
+S014.X	55	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 71 0
+S014@OLD	56	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 71 0
+S014@FLAG	57	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 74 0
+S011.X	58	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 74 0
+S011@OLD	59	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 74 0
+S011@FLAG	60	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 77 0
+S016.X	61	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 77 0
+S016@OLD	62	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 77 0
+S016@FLAG	63	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 80 0
+S013.X	64	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 80 0
+S013@OLD	65	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 80 0
+S013@FLAG	66	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 89 0
+S015.X	67	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 89 0
+S015@OLD	68	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 89 0
+S015@FLAG	69	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 92 0
+S018.X	70	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 92 0
+S018@OLD	71	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 92 0
+S018@FLAG	72	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 101 0
+S017.X	73	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 101 0
+S017@OLD	74	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 101 0
+S017@FLAG	75	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 103 0
+S020.X	76	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 103 0
+S020@OLD	77	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 103 0
+S020@FLAG	78	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 106 0
+S019.X	79	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 106 0
+S019@OLD	80	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 106 0
+S019@FLAG	81	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 109 0
+S022.X	82	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 109 0
+S022@OLD	83	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 109 0
+S022@FLAG	84	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 136 0
+S008.X	85	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 136 0
+S008@OLD	86	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 136 0
+S008@FLAG	87	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 147 0
+S041.X	88	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 147 0
+S041@OLD	89	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 147 0
+S041@FLAG	90	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 150 0
+S042.X	91	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 150 0
+S042@OLD	92	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 150 0
+S042@FLAG	93	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 187 0
+S046.X	94	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 187 0
+S046@OLD	95	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 187 0
+S046@FLAG	96	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 188 0
+S047.X	97	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 188 0
+S047@OLD	98	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 188 0
+S047@FLAG	99	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 190 0
+S048.X	100	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 190 0
+S048@OLD	101	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 190 0
+S048@FLAG	102	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 224 0
+S058.X	103	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 224 0
+S058@OLD	104	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 224 0
+S058@FLAG	105	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 228 0
+S060.X	106	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 228 0
+S060@OLD	107	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 228 0
+S060@FLAG	108	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 240 0
+S061.X	109	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 240 0
+S061@OLD	110	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 240 0
+S061@FLAG	111	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 255 0
+S063.X	112	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 255 0
+S063@OLD	113	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 255 0
+S063@FLAG	114	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 161 0
+H1@SET	115	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 161 0
+H1@TS	116	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 105 0
+KE1@SET	117	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 105 0
+KE1@TS	118	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 79 0
+KE2@SET	119	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 79 0
+KE2@TS	120	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 152 0
+KG@SET	121	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 152 0
+KG@TS	122	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 119 0
+KM3@SET	123	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 119 0
+KM3@TS	124	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 94 0
+KM4D@SET	125	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 94 0
+KM4D@TS	126	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 111 0
+KM4E@SET	127	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 111 0
+KM4E@TS	128	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 46 0
+MEMA@SET	129	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 46 0
+MEMA@TS	130	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 226 0
+MEMARMAZENAMENTOFIM@SET	131	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 226 0
+MEMARMAZENAMENTOFIM@TS	132	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 226 0
+Armazenamento@12	133	VAR	@FB:38
+		     
+
+;
+PFW: RDT
+@V 2 226 0
+Armazenamento@12@FLAG	134	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+@FIRST_CYCLE	135	VAR	@TYP:1
+		     
+
+;
+PFW: RDT

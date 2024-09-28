@@ -1,0 +1,601 @@
+(*
+NDTE: 108
+NCPE: 432
+NDME: 56
+*)
+2 0	ANL_IL_AI_4_EF_V1\ANL_IL_AI_4_EF_V1	AIEF_ARR_b_0_9	1024	1	USER	ARRAY	BYTE	17			
+2 0			0	9	
+4 0	ANL_IL_AI_4_UI_V2\ANL_IL_AI_4_UI_V2	ANL_udt_Para_1_5	1025	25	USER	STRUCT				
+6 0		CH1iChannel	INT	3	0	
+7 0		CH1iMode	INT	3	0	
+8 0		CH1iFilter	INT	3	0	
+9 0		CH1rHighLimit	REAL	10	0	
+10 0		CH1rLowLimit	REAL	10	0	
+11 0		CH1wDiagCode	WORD	18	0	
+13 0		CH2iChannel	INT	3	0	
+14 0		CH2iMode	INT	3	0	
+15 0		CH2iFilter	INT	3	0	
+16 0		CH2rHighLimit	REAL	10	0	
+17 0		CH2rLowLimit	REAL	10	0	
+18 0		CH2wDiagCode	WORD	18	0	
+20 0		CH3iChannel	INT	3	0	
+21 0		CH3iMode	INT	3	0	
+22 0		CH3iFilter	INT	3	0	
+23 0		CH3rHighLimit	REAL	10	0	
+24 0		CH3rLowLimit	REAL	10	0	
+25 0		CH3wDiagCode	WORD	18	0	
+27 0		CH4iChannel	INT	3	0	
+28 0		CH4iMode	INT	3	0	
+29 0		CH4iFilter	INT	3	0	
+30 0		CH4rHighLimit	REAL	10	0	
+31 0		CH4rLowLimit	REAL	10	0	
+32 0		CH4wDiagCode	WORD	18	0	
+33 0		wDummy	WORD	18	0	
+38 0	ANL_IL_AI_4_UI_V2\ANL_IL_AI_4_UI_V2	ANL_udt_Status_1_5	1026	17	USER	STRUCT				
+40 0		CH1xDataValid	BOOL	1	0	
+41 0		CH1wDiagCode	WORD	18	0	
+42 0		CH1rCurrentValue	REAL	10	0	
+43 0		CH1iChannel	INT	3	0	
+45 0		CH2xDataValid	BOOL	1	0	
+46 0		CH2wDiagCode	WORD	18	0	
+47 0		CH2rCurrentValue	REAL	10	0	
+48 0		CH2iChannel	INT	3	0	
+50 0		CH3xDataValid	BOOL	1	0	
+51 0		CH3wDiagCode	WORD	18	0	
+52 0		CH3rCurrentValue	REAL	10	0	
+53 0		CH3iChannel	INT	3	0	
+55 0		CH4xDataValid	BOOL	1	0	
+56 0		CH4wDiagCode	WORD	18	0	
+57 0		CH4rCurrentValue	REAL	10	0	
+58 0		CH4iChannel	INT	3	0	
+59 0		wDummy	WORD	18	0	
+62 0	ANL_IL_AI_4_UI_V2\ANL_IL_AI_4_UI_V2	ANL_UDT_AI4UI_ChaDat	1027	13	USER	STRUCT				
+63 0		iChannel	INT	3	0	
+64 0		iMode	INT	3	0	
+65 0		iFilter	INT	3	0	
+66 0		rHighLimit	REAL	10	0	
+67 0		rLowLimit	REAL	10	0	
+68 0		xConfigured	BOOL	1	0	
+69 0		xSelected	BOOL	1	0	
+70 0		xError	BOOL	1	0	
+71 0		wDiagCode	WORD	18	0	
+72 0		xDataValid	BOOL	1	0	
+73 0		wInput	WORD	18	0	
+74 0		wOut	WORD	18	0	
+75 0		rCurVal	REAL	10	0	
+78 0	ANL_IL_AI_4_UI_V2\ANL_IL_AI_4_UI_V2	ANL_ARR_AI4UI_ChaDats	1028	1	USER	ARRAY	ANL_UDT_AI4UI_ChaDat	1027			
+78 0			1	4	
+2 0	ANL_IL_AO\ANL_IL_AO	ST_Value	1029	3	USER	STRUCT				
+3 0		rNormValue	REAL	10	0	
+4 0		rHI_Limit	REAL	10	0	
+5 0		rLO_Limit	REAL	10	0	
+8 0	ANL_IL_AO\ANL_IL_AO	ANL_UDT_AO_DIAG	1030	1	USER	STRUCT				
+9 0		iState	INT	3	0	
+2 0	ANL_IL_AO4_8_V1\ANL_IL_AO4_8_V1	Analog_UDT_AO4_8_IN	1031	5	USER	STRUCT				
+3 0		Hold	BOOL	1	0	
+4 0		Range	INT	3	0	
+5 0		Value	REAL	10	0	
+6 0		MinValue	REAL	10	0	
+7 0		MaxValue	REAL	10	0	
+10 0	ANL_IL_AO4_8_V1\ANL_IL_AO4_8_V1	Analog_UDT_AO4_8_OUT	1032	1	USER	STRUCT				
+11 0		Done	BOOL	1	0	
+14 0	ANL_IL_AO4_8_V1\ANL_IL_AO4_8_V1	UDT_IL_AO4_8_Para	1033	1	USER	ARRAY	Analog_UDT_AO4_8_IN	1031			
+14 0			1	8	
+15 0	ANL_IL_AO4_8_V1\ANL_IL_AO4_8_V1	UDT_IL_AO4_8_Conf	1034	1	USER	ARRAY	Analog_UDT_AO4_8_OUT	1032			
+15 0			1	8	
+16 0	ANL_IL_AO4_8_V1\ANL_IL_AO4_8_V1	AR_W_1_8	1035	1	USER	ARRAY	WORD	18			
+16 0			1	8	
+3 0	ANL_IL_SGI_2P_V1\ANL_IL_SGI_2P_V1	ANA_ARR_W_1_2	1036	1	USER	ARRAY	WORD	18			
+3 0			1	2	
+4 0	ANL_IL_SGI_2P_V1\ANL_IL_SGI_2P_V1	ANA_ARR_W_1_8	1037	1	USER	ARRAY	WORD	18			
+4 0			1	8	
+5 0	ANL_IL_SGI_2P_V1\ANL_IL_SGI_2P_V1	ANA_ARR_B_1_16	1038	1	USER	ARRAY	BYTE	17			
+5 0			1	16	
+6 0	ANL_IL_SGI_2P_V1\ANL_IL_SGI_2P_V1	ANA_ARR_B_1_6	1039	1	USER	ARRAY	BYTE	17			
+6 0			1	6	
+7 0	ANL_IL_SGI_2P_V1\ANL_IL_SGI_2P_V1	ANA_ARR_B_1_2	1040	1	USER	ARRAY	BYTE	17			
+7 0			1	2	
+8 0	ANL_IL_SGI_2P_V1\ANL_IL_SGI_2P_V1	ANA_ARR_B_1_4	1041	1	USER	ARRAY	BYTE	17			
+8 0			1	4	
+10 0	ANL_IL_SGI_2P_V1\ANL_IL_SGI_2P_V1	ANA_UDT_SGI_AddValues_V1	1042	10	USER	STRUCT				
+12 0		rMinValCh1	REAL	10	0	
+13 0		rMaxValCh1	REAL	10	0	
+14 0		rMinValCh2	REAL	10	0	
+15 0		rMaxValCh2	REAL	10	0	
+16 0		wDeviceInfo	WORD	18	0	
+17 0		arrFloatValueCh1	ANA_ARR_B_1_4	1041	0	
+18 0		arrDispalyValueCh1	ANA_ARR_B_1_4	1041	0	
+19 0		arrFloatValueCh2	ANA_ARR_B_1_4	1041	0	
+20 0		arrDispalyValueCh2	ANA_ARR_B_1_4	1041	0	
+21 0		wDummy	WORD	18	0	
+24 0	ANL_IL_SGI_2P_V1\ANL_IL_SGI_2P_V1	ANA_UDT_SGI_Adjust_V1	1043	4	USER	STRUCT				
+26 0		xAdjust	BOOL	1	0	
+27 0		xZeroPoint	BOOL	1	0	
+28 0		xTare	BOOL	1	0	
+29 0		xKa_Kb	BOOL	1	0	
+33 0	ANL_IL_SGI_2P_V1\ANL_IL_SGI_2P_V1	ANA_UDT_SGI_Para_V1	1044	5	USER	STRUCT				
+35 0		iFilter	INT	3	0	
+36 0		iCharacteristic	INT	3	0	
+37 0		rNominalWeight	REAL	10	0	
+38 0		xConversionTime	BOOL	1	0	
+39 0		rAdjustValue	REAL	10	0	
+43 0	ANL_IL_SGI_2P_V1\ANL_IL_SGI_2P_V1	ANA_UDT_SGI_DiagState_V1	1045	4	USER	STRUCT				
+45 0		xStandstill	BOOL	1	0	
+46 0		xZeroPoint	BOOL	1	0	
+47 0		xNettoValue	BOOL	1	0	
+48 0		xDefault	BOOL	1	0	
+2 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_ARR_B_1_33	1046	1	USER	ARRAY	BYTE	17			
+2 0			1	33	
+3 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_ARR_B_1_3	1047	1	USER	ARRAY	BYTE	17			
+3 0			1	3	
+4 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_ARR_B_1_5	1048	1	USER	ARRAY	BYTE	17			
+4 0			1	5	
+5 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_ARR_B_0_3	1049	1	USER	ARRAY	BYTE	17			
+5 0			0	3	
+6 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_ARR_STR_1_12	1050	1	USER	ARRAY	STRING	16			
+6 0			1	12	
+9 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_UDT_SGI_1_CAL_AddValues_V1	1051	9	USER	STRUCT				
+11 0		xMeasurmentProtocol	BOOL	1	0	
+12 0		xReadLastProtocol	BOOL	1	0	
+13 0		xReadSelectProtocol	BOOL	1	0	
+14 0		iBaseNoProtocol	INT	3	0	
+15 0		rTaraValue	REAL	10	0	
+16 0		wDeviceInfo	WORD	18	0	
+17 0		arrMeasuredValueFloat	ANA_ARR_B_1_6	1039	0	
+18 0		arrDisplayValueFloat	ANA_ARR_B_1_6	1039	0	
+19 0		arrTaraValueFloat	ANA_ARR_B_1_6	1039	0	
+23 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_UDT_SGI_1_CAL_Adjust_V1	1052	3	USER	STRUCT				
+25 0		xAdjust	BOOL	1	0	
+26 0		xZeroPoint	BOOL	1	0	
+27 0		xTara	BOOL	1	0	
+31 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_UDT_SGI_1_CAL_Para_V1	1053	10	USER	STRUCT				
+33 0		xSaveRemanend	BOOL	1	0	
+34 0		iFrequencyLimit	INT	3	0	
+35 0		iFilter	INT	3	0	
+36 0		iOrdinalNumber	INT	3	0	
+37 0		iCharacteristic	INT	3	0	
+38 0		uintNominalWeight	UINT	7	0	
+39 0		rAdjustValue	REAL	10	0	
+40 0		rDivisionCount	REAL	10	0	
+41 0		strMeasurementUnit	STRING	16	0	
+42 0		wDummy	WORD	18	0	
+46 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_UDT_SGI_1_CAL_SMP_V1	1054	13	USER	STRUCT				
+48 0		arrSelectedMeasureProtocol	ANA_ARR_B_1_33	1046	0	
+49 0		xRSP	BOOL	1	0	
+50 0		iMeasurementNo	INT	3	0	
+51 0		strDate	STRING	16	0	
+52 0		rMeasurementDisplay	REAL	10	0	
+53 0		rMeasurementGross	REAL	10	0	
+54 0		rMeasurementTara	REAL	10	0	
+55 0		strASCII	STRING	16	0	
+56 0		rCommaValue	REAL	10	0	
+57 0		iStatus	INT	3	0	
+58 0		uintSerialNo	UINT	7	0	
+59 0		iCRC	INT	3	0	
+60 0		dwBaseNumber	DWORD	19	0	
+64 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_UDT_SGI_1_CAL_LMP_V1	1055	12	USER	STRUCT				
+66 0		arrLastMeasureProtocol	ANA_ARR_B_1_33	1046	0	
+67 0		iMeasurementNo	INT	3	0	
+68 0		strDate	STRING	16	0	
+69 0		rMeasurementDisplay	REAL	10	0	
+70 0		rMeasurementGross	REAL	10	0	
+71 0		rMeasurementTara	REAL	10	0	
+72 0		strASCII	STRING	16	0	
+73 0		rCommaValue	REAL	10	0	
+74 0		iStatus	INT	3	0	
+75 0		uintSerialNo	UINT	7	0	
+76 0		iCRC	INT	3	0	
+77 0		wDummy	WORD	18	0	
+81 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_UDT_SGI_1_CAL_DiagState_V1	1056	10	USER	STRUCT				
+83 0		xFault	BOOL	1	0	
+84 0		xParaLock	BOOL	1	0	
+85 0		xMax	BOOL	1	0	
+86 0		xMin	BOOL	1	0	
+87 0		xResolution	BOOL	1	0	
+88 0		xProtocol	BOOL	1	0	
+89 0		xStandStill	BOOL	1	0	
+90 0		xZeroPoint	BOOL	1	0	
+91 0		xNettoValue	BOOL	1	0	
+92 0		xDefault	BOOL	1	0	
+97 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	ANA_UDT_REAL_TO_BYTE	1057	9	USER	STRUCT				
+99 0		Byte0	BYTE	17	0	
+100 0		Byte1	BYTE	17	0	
+101 0		Byte2	BYTE	17	0	
+102 0		Byte3	BYTE	17	0	
+103 0		Byte4	BYTE	17	0	
+104 0		Byte5	BYTE	17	0	
+105 0		Byte6	BYTE	17	0	
+106 0		Byte7	BYTE	17	0	
+107 0		RealWert	REAL	10	0	
+113 0	ANL_IL_SGI_1_CAL\ANL_IL_SGI_1_CAL	udtSGI_1_CAL	1058	9	USER	STRUCT				
+115 0		AddValues	ANA_UDT_SGI_1_CAL_AddValues_V1	1051	0	
+116 0		AdjustValues	ANA_UDT_SGI_1_CAL_Adjust_V1	1052	0	
+117 0		Parameter	ANA_UDT_SGI_1_CAL_Para_V1	1053	0	
+118 0		RD_LMP	ANA_UDT_SGI_1_CAL_LMP_V1	1055	0	
+119 0		RD_SMP	ANA_UDT_SGI_1_CAL_SMP_V1	1054	0	
+120 0		Diagnose	ANA_UDT_SGI_1_CAL_DiagState_V1	1056	0	
+121 0		xActivato	BOOL	1	0	
+122 0		wDummy	WORD	18	0	
+123 0		wDummy1	WORD	18	0	
+3 0	ANL_IL_SGI_2F_V1\ANL_IL_SGI_2F_V1	ANL_ARR_W_1_3	1059	1	USER	ARRAY	WORD	18			
+3 0			1	3	
+4 0	ANL_IL_SGI_2F_V1\ANL_IL_SGI_2F_V1	ANL_ARR_R_1_32	1060	1	USER	ARRAY	REAL	10			
+4 0			1	32	
+5 0	ANL_IL_SGI_2F_V1\ANL_IL_SGI_2F_V1	ANL_ARR_R_0_32	1061	1	USER	ARRAY	REAL	10			
+5 0			0	32	
+8 0	ANL_IL_SGI_2F_V1\ANL_IL_SGI_2F_V1	ANL_UDT_SGI_2F_PARA_V1	1062	5	USER	STRUCT				
+10 0		xFilterOnOff	BOOL	1	0	
+11 0		bCharacteristic	BYTE	17	0	
+12 0		rNominalweight	REAL	10	0	
+13 0		wOffset	WORD	18	0	
+14 0		wDummy	WORD	18	0	
+17 0	ANL_IL_SGI_2F_V1\ANL_IL_SGI_2F_V1	ANL_UDT_SGI_2F_AddValues_V1	1063	8	USER	STRUCT				
+19 0		rMinValCh1	REAL	10	0	
+20 0		rMaxValCh1	REAL	10	0	
+21 0		rMinValCh2	REAL	10	0	
+22 0		rMaxValCh2	REAL	10	0	
+23 0		wRawValCh1	WORD	18	0	
+24 0		wRawValCh2	WORD	18	0	
+25 0		wDeviceInfo	WORD	18	0	
+26 0		wDummy	WORD	18	0	
+2 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_ARR_B_1_33	1064	1	USER	ARRAY	BYTE	17			
+2 0			1	33	
+3 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_ARR_B_1_3	1065	1	USER	ARRAY	BYTE	17			
+3 0			1	3	
+4 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_ARR_B_1_5	1066	1	USER	ARRAY	BYTE	17			
+4 0			1	5	
+5 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_ARR_B_0_3	1067	1	USER	ARRAY	BYTE	17			
+5 0			0	3	
+6 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_ARR_STR_1_12	1068	1	USER	ARRAY	STRING	16			
+6 0			1	12	
+7 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_ARR_W_1_2	1069	1	USER	ARRAY	WORD	18			
+7 0			1	2	
+8 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_ARR_W_1_8	1070	1	USER	ARRAY	WORD	18			
+8 0			1	8	
+9 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_ARR_B_1_16	1071	1	USER	ARRAY	BYTE	17			
+9 0			1	16	
+10 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_ARR_B_1_6	1072	1	USER	ARRAY	BYTE	17			
+10 0			1	6	
+11 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_ARR_B_1_2	1073	1	USER	ARRAY	BYTE	17			
+11 0			1	2	
+12 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_ARR_B_1_4	1074	1	USER	ARRAY	BYTE	17			
+12 0			1	4	
+28 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_UDT_REAL_TO_BYTE	1075	9	USER	STRUCT				
+30 0		Byte0	BYTE	17	0	
+31 0		Byte1	BYTE	17	0	
+32 0		Byte2	BYTE	17	0	
+33 0		Byte3	BYTE	17	0	
+34 0		Byte4	BYTE	17	0	
+35 0		Byte5	BYTE	17	0	
+36 0		Byte6	BYTE	17	0	
+37 0		Byte7	BYTE	17	0	
+38 0		RealWert	REAL	10	0	
+41 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_UDT_AddValues_V1	1076	10	USER	STRUCT				
+43 0		rMinValCh1	REAL	10	0	
+44 0		rMaxValCh1	REAL	10	0	
+45 0		rMinValCh2	REAL	10	0	
+46 0		rMaxValCh2	REAL	10	0	
+47 0		wDeviceInfo	WORD	18	0	
+48 0		arrFloatValueCh1	SGI_2P_PN_ARR_B_1_4	1074	0	
+49 0		arrDispalyValueCh1	SGI_2P_PN_ARR_B_1_4	1074	0	
+50 0		arrFloatValueCh2	SGI_2P_PN_ARR_B_1_4	1074	0	
+51 0		arrDispalyValueCh2	SGI_2P_PN_ARR_B_1_4	1074	0	
+52 0		wDummy	WORD	18	0	
+55 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_UDT_Adjust_V1	1077	4	USER	STRUCT				
+57 0		xAdjust	BOOL	1	0	
+58 0		xZeroPoint	BOOL	1	0	
+59 0		xTare	BOOL	1	0	
+60 0		xKa_Kb	BOOL	1	0	
+64 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_UDT_Para_V1	1078	5	USER	STRUCT				
+66 0		iFilter	INT	3	0	
+67 0		iCharacteristic	INT	3	0	
+68 0		rNominalWeight	REAL	10	0	
+69 0		xConversionTime	BOOL	1	0	
+70 0		rAdjustValue	REAL	10	0	
+74 0	ANL_IL_SGI_2P_A_V1\ANL_IL_SGI_2P_A_V1	SGI_2P_PN_UDT_DiagState_V1	1079	4	USER	STRUCT				
+76 0		xStandstill	BOOL	1	0	
+77 0		xZeroPoint	BOOL	1	0	
+78 0		xNettoValue	BOOL	1	0	
+79 0		xDefault	BOOL	1	0	
+3 0	ANL_IL_AI_8_V2\ANL_IL_AI_8_V2	ANL_UDT_AI_8_IN_V_1	1080	5	USER	STRUCT				
+4 0		Filter	INT	3	0	
+5 0		Range	INT	3	0	
+6 0		Standardization	BOOL	1	0	
+7 0		LoLim	REAL	10	0	
+8 0		HiLim	REAL	10	0	
+12 0	ANL_IL_AI_8_V2\ANL_IL_AI_8_V2	ANL_UDT_AI_8_OUT_V_1	1081	5	USER	STRUCT				
+13 0		Value_PD	WORD	18	0	
+14 0		Value	REAL	10	0	
+15 0		NDR	BOOL	1	0	
+16 0		Error	BOOL	1	0	
+17 0		ErrorCode	WORD	18	0	
+21 0	ANL_IL_AI_8_V2\ANL_IL_AI_8_V2	ANL_ARR_IL_AI_8_Para	1082	1	USER	ARRAY	ANL_UDT_AI_8_IN_V_1	1080			
+21 0			1	8	
+23 0	ANL_IL_AI_8_V2\ANL_IL_AI_8_V2	ANL_ARR_IL_AI_8_Data	1083	1	USER	ARRAY	ANL_UDT_AI_8_OUT_V_1	1081			
+23 0			1	8	
+25 0	ANL_IL_AI_8_V2\ANL_IL_AI_8_V2	ANL_ARR_IL_AI_8_SelectCH	1084	1	USER	ARRAY	BOOL	1			
+25 0			1	8	
+3 0	ANL_IL_AO_2_UI\ANL_IL_AO_2_UI	ANL_ARR_W_1_4	1085	1	USER	ARRAY	WORD	18			
+3 0			1	4	
+6 0	ANL_IL_AO_2_UI\ANL_IL_AO_2_UI	udtDiag	1086	3	USER	STRUCT				
+8 0		xError	BOOL	1	0	
+9 0		wErrorCode	WORD	18	0	
+10 0		iDelay	INT	3	0	
+13 0	ANL_IL_AO_2_UI\ANL_IL_AO_2_UI	ANL_ARR_Diag_1_2	1087	1	USER	ARRAY	udtDiag	1086			
+13 0			1	2	
+16 0	ANL_IL_AO_2_UI\ANL_IL_AO_2_UI	udtPara	1088	6	USER	STRUCT				
+18 0		iRange	INT	3	0	
+19 0		rHiLim	REAL	10	0	
+20 0		rLoLim	REAL	10	0	
+21 0		rSetValue	REAL	10	0	
+22 0		xError	BOOL	1	0	
+23 0		wDummy	WORD	18	0	
+26 0	ANL_IL_AO_2_UI\ANL_IL_AO_2_UI	ANL_ARR_Para_1_2	1089	1	USER	ARRAY	udtPara	1088			
+26 0			1	2	
+29 0	ANL_IL_AO_2_UI\ANL_IL_AO_2_UI	ANL_ARR_AO2UI_PD_BUF	1090	1	USER	ARRAY	WORD	18			
+29 0			0	31	
+30 0	ANL_IL_AO_2_UI\ANL_IL_AO_2_UI	ANL_ARR_AO2UI_PD_BAK	1091	1	USER	ARRAY	ANL_ARR_AO2UI_PD_BUF	1090			
+30 0			1	2	
+32 0	ANL_IL_AO_2_UI\ANL_IL_AO_2_UI	ANL_UDT_AO2UI_CHA	1092	9	USER	STRUCT				
+33 0		xSelected	BOOL	1	0	
+34 0		iRange	INT	3	0	
+35 0		rLoLim	REAL	10	0	
+36 0		rHiLim	REAL	10	0	
+37 0		rMaxLimit	REAL	10	0	
+38 0		rMinLimit	REAL	10	0	
+39 0		wConfigCode	WORD	18	0	
+40 0		wParameter	WORD	18	0	
+41 0		rParameter	REAL	10	0	
+44 0	ANL_IL_AO_2_UI\ANL_IL_AO_2_UI	ANL_ARR_AO2UI_CHA	1093	1	USER	ARRAY	ANL_UDT_AO2UI_CHA	1092			
+44 0			1	2	
+3 0	ANL_IL_SGI_2P_EF\ANL_IL_SGI_2P_EF	ANL_ARR_SGI_PD	1094	1	USER	ARRAY	WORD	18			
+3 0			0	2	
+6 0	ANL_IL_SGI_2P_EF\ANL_IL_SGI_2P_EF	ANL_UDT_SGI_ADJUST	1095	9	USER	STRUCT				
+8 0		xAdjust	BOOL	1	0	
+9 0		xAdjust2	BOOL	1	0	
+10 0		xSetZeroPoint	BOOL	1	0	
+11 0		xTara	BOOL	1	0	
+12 0		xResetTara	BOOL	1	0	
+13 0		xKa_Kb	BOOL	1	0	
+14 0		wKa_Kb	WORD	18	0	
+15 0		wKa_Kb_Up	WORD	18	0	
+16 0		wKa_Kb_Dn	WORD	18	0	
+20 0	ANL_IL_SGI_2P_EF\ANL_IL_SGI_2P_EF	ANL_UDT_SGI_PARA	1096	11	USER	STRUCT				
+22 0		iFilter	INT	3	0	
+23 0		iCharacteristic	INT	3	0	
+24 0		wCharacteristic	WORD	18	0	
+25 0		rNominalWeight	REAL	10	0	
+26 0		iConversionTime	INT	3	0	
+27 0		rAdjustValue	REAL	10	0	
+28 0		rAdjustValue2	REAL	10	0	
+29 0		wAdjustValue	WORD	18	0	
+30 0		wAdjustValue2	WORD	18	0	
+31 0		wNominalWeight	WORD	18	0	
+33 0		wPadding	WORD	18	0	
+37 0	ANL_IL_SGI_2P_EF\ANL_IL_SGI_2P_EF	ANL_UDT_SGI_VALUE	1097	10	USER	STRUCT				
+39 0		rVal	REAL	10	0	
+40 0		xValid	BOOL	1	0	
+41 0		rMinVal	REAL	10	0	
+42 0		rMaxVal	REAL	10	0	
+43 0		arrFloatValue	SGI_2P_PN_ARR_B_1_4	1074	0	
+44 0		arrDisplayValue	SGI_2P_PN_ARR_B_1_4	1074	0	
+45 0		xStandstill	BOOL	1	0	
+46 0		xZeroPoint	BOOL	1	0	
+47 0		xNettoValue	BOOL	1	0	
+48 0		xDefault	BOOL	1	0	
+52 0	ANL_IL_SGI_2P_EF\ANL_IL_SGI_2P_EF	ANL_UDT_SGI_DIAG	1098	2	USER	STRUCT				
+53 0		wDiagCode	WORD	18	0	
+54 0		dwAddDiagCode	DWORD	19	0	
+58 0	ANL_IL_SGI_2P_EF\ANL_IL_SGI_2P_EF	ANL_UDT_SGI_CHANNEL	1099	11	USER	STRUCT				
+59 0		udtAdjust	ANL_UDT_SGI_ADJUST	1095	0	
+60 0		udtPara	ANL_UDT_SGI_PARA	1096	0	
+61 0		udtVal	ANL_UDT_SGI_VALUE	1097	0	
+62 0		xSelected	BOOL	1	0	
+63 0		xAdjust	BOOL	1	0	
+64 0		xAdjust2	BOOL	1	0	
+65 0		xTara	BOOL	1	0	
+66 0		xZeroPoint	BOOL	1	0	
+67 0		xKa_Kb	BOOL	1	0	
+68 0		wConfig	WORD	18	0	
+70 0		wPadding	DWORD	19	0	
+74 0	ANL_IL_SGI_2P_EF\ANL_IL_SGI_2P_EF	ANL_ARR_SGI_CHANNELS	1100	1	USER	ARRAY	ANL_UDT_SGI_CHANNEL	1099			
+74 0			1	2	
+76 0	ANL_IL_SGI_2P_EF\ANL_IL_SGI_2P_EF	ANL_UDT_SGI_2P_EF	1101	20	USER	STRUCT				
+77 0		iState	INT	3	0	
+78 0		wDeviceInfo	WORD	18	0	
+79 0		xConnect	BOOL	1	0	
+80 0		xWrite	BOOL	1	0	
+81 0		xRead	BOOL	1	0	
+82 0		iCNT	INT	3	0	
+83 0		wIndexWrite	WORD	18	0	
+84 0		wSubIndexWrite	WORD	18	0	
+85 0		wIndexRead	WORD	18	0	
+86 0		wSubIndexRead	WORD	18	0	
+87 0		iValue	INT	3	0	
+88 0		xConnectError	BOOL	1	0	
+89 0		xWriteDone	BOOL	1	0	
+90 0		xWriteError	BOOL	1	0	
+91 0		xNDR	BOOL	1	0	
+92 0		xReadError	BOOL	1	0	
+93 0		xConnectValid	BOOL	1	0	
+94 0		xSetDefaultSettings	BOOL	1	0	
+95 0		udtDiag	ANL_UDT_SGI_DIAG	1098	0	
+96 0		arrCH	ANL_ARR_SGI_CHANNELS	1100	0	
+2 0	RS232types\RS232types	T_RS232	1102	10	USER	STRUCT				
+3 0		protocol	INT	3	0	
+4 0		baudrate	INT	3	0	
+5 0		databits	INT	3	0	
+6 0		stopbits	INT	3	0	
+7 0		flowcontrol	INT	3	0	
+8 0		error_pattern	INT	3	0	
+9 0		first_delimiter	INT	3	0	
+10 0		second_delimiter	INT	3	0	
+11 0		XON_pattern	INT	3	0	
+12 0		XOFF_pattern	INT	3	0	
+17 0	RS232types\RS232types	Tmessage	1103	1	USER	ARRAY	BYTE	17			
+17 0			1	8	
+2 0	sys_flag_types\sys_flag_types	Task_Name_Typ	1104	1	USER	ARRAY	BYTE	17			
+2 0			0	9	
+4 0	sys_flag_types\sys_flag_types	Extended_Task_Info	1105	17	USER	STRUCT				
+5 0		TaskName	Task_Name_Typ	1104	0	
+6 0		TaskPrio	INT	3	0	
+7 0		undocumented_0	INT	3	0	
+8 0		TaskPeriod	INT	3	0	
+9 0		TaskStack	INT	3	0	
+10 0		unused_1	INT	3	0	
+11 0		TaskWatchdog	INT	3	0	
+12 0		undocumented_2	INT	3	0	
+13 0		undocumented_3	INT	3	0	
+14 0		undocumented_4	INT	3	0	
+15 0		CurDuration	INT	3	0	
+16 0		MinDuration	INT	3	0	
+17 0		MaxDuration	INT	3	0	
+18 0		undocumented_5	INT	3	0	
+19 0		CurDelay	INT	3	0	
+20 0		MinDelay	INT	3	0	
+21 0		MaxDelay	INT	3	0	
+26 0	sys_flag_types\sys_flag_types	Task_Name_eCLR	1106	1	USER	ARRAY	BYTE	17			
+26 0			0	35	
+28 0	sys_flag_types\sys_flag_types	Task_Info_eCLR	1107	30	USER	STRUCT				
+29 0		TaskStack	INT	3	0	
+30 0		TaskPrio	INT	3	0	
+31 0		TaskPeriod_us	DINT	4	0	
+32 0		TaskWatchdog_us	DINT	4	0	
+33 0		TaskPeriod	INT	3	0	
+34 0		TaskWatchdog	INT	3	0	
+35 0		MinDuration_us	DINT	4	0	
+36 0		MaxDuration_us	DINT	4	0	
+37 0		CurDuration_us	DINT	4	0	
+38 0		MinDelay_us	DINT	4	0	
+39 0		MaxDelay_us	DINT	4	0	
+40 0		CurDelay_us	DINT	4	0	
+41 0		MinDuration	INT	3	0	
+42 0		MaxDuration	INT	3	0	
+43 0		CurDuration	INT	3	0	
+44 0		MinDelay	INT	3	0	
+45 0		MaxDelay	INT	3	0	
+46 0		CurDelay	INT	3	0	
+47 0		unused_1	DINT	4	0	
+48 0		unused_2	DINT	4	0	
+49 0		unused_3	DINT	4	0	
+50 0		unused_4	DINT	4	0	
+51 0		unused_5	DINT	4	0	
+52 0		unused_6	DINT	4	0	
+53 0		unused_7	DINT	4	0	
+54 0		unused_8	DINT	4	0	
+55 0		unused_9	DINT	4	0	
+56 0		TNameMaxSize	INT	3	0	
+57 0		TNameSize	INT	3	0	
+58 0		TaskName	Task_Name_eCLR	1106	0	
+63 0	sys_flag_types\sys_flag_types	PND_IO_6	1108	1	USER	ARRAY	BYTE	17			
+63 0			0	5	
+64 0	sys_flag_types\sys_flag_types	PND_IO_7	1109	1	USER	ARRAY	BYTE	17			
+64 0			0	6	
+65 0	sys_flag_types\sys_flag_types	PND_IO_32	1110	1	USER	ARRAY	BYTE	17			
+65 0			0	31	
+66 0	sys_flag_types\sys_flag_types	PND_IO_64	1111	1	USER	ARRAY	BYTE	17			
+66 0			0	63	
+67 0	sys_flag_types\sys_flag_types	PND_IO_128	1112	1	USER	ARRAY	BYTE	17			
+67 0			0	127	
+68 0	sys_flag_types\sys_flag_types	PND_IO_256	1113	1	USER	ARRAY	BYTE	17			
+68 0			0	255	
+69 0	sys_flag_types\sys_flag_types	PND_IO_512	1114	1	USER	ARRAY	BYTE	17			
+69 0			0	511	
+73 0	sys_flag_types\sys_flag_types	Redundancy_OPC_Struct	1115	1	USER	ARRAY	INT	3			
+73 0			0	2	
+77 0	sys_flag_types\sys_flag_types	MBT_STATION_DIAG	1116	19	USER	STRUCT				
+78 0		Status	DWORD	19	0	
+81 0		IP	DWORD	19	0	
+82 0		OfflineCounter	DWORD	19	0	
+84 0		NetCycleAvg	DWORD	19	0	
+85 0		NetCycleMin	DWORD	19	0	
+86 0		NetCycleMax	DWORD	19	0	
+88 0		NetInCycleAvg	DWORD	19	0	
+89 0		NetInCycleMin	DWORD	19	0	
+90 0		NetInCycleMax	DWORD	19	0	
+92 0		NetOutCycleAvg	DWORD	19	0	
+93 0		NetOutCycleMin	DWORD	19	0	
+94 0		NetOutCycleMax	DWORD	19	0	
+96 0		InternalError1	DWORD	19	0	
+97 0		InternalError2	DWORD	19	0	
+99 0		ExceptionCounter	DWORD	19	0	
+100 0		DiagReserved1	BYTE	17	0	
+101 0		DiagReserved2	BYTE	17	0	
+102 0		UnitID	BYTE	17	0	
+103 0		DiagReserved3	BYTE	17	0	
+106 0	sys_flag_types\sys_flag_types	MBT_STATION_CONTROL	1117	4	USER	STRUCT				
+107 0		ctrlStatistics	BYTE	17	0	
+108 0		ControlReserved1	BYTE	17	0	
+109 0		ControlReserved2	WORD	18	0	
+110 0		ControlReserved3	DWORD	19	0	
+115 0	sys_flag_types\sys_flag_types	MBS_SERVER_STATUS	1118	13	USER	STRUCT				
+116 0		AcceptCnt	DWORD	19	0	
+117 0		AcceptErrorCnt	DWORD	19	0	
+118 0		ReceiveErrorCnt	DWORD	19	0	
+119 0		ModbusRequestCnt	DWORD	19	0	
+120 0		ModbusExceptionCnt	DWORD	19	0	
+122 0		SocketErrorCode	WORD	18	0	
+123 0		TcpConnectedClients	WORD	18	0	
+124 0		LastExceptionRegister	WORD	18	0	
+125 0		LastExceptionRegLength	WORD	18	0	
+127 0		LastExceptionNode	BYTE	17	0	
+128 0		LastExceptionFunction	BYTE	17	0	
+129 0		LastExceptionCode	BYTE	17	0	
+130 0		reserved	BYTE	17	0	
+135 0	sys_flag_types\sys_flag_types	MBS_SERVER_CONTROL	1119	4	USER	STRUCT				
+136 0		Flags	BYTE	17	0	
+137 0		reserved1	BYTE	17	0	
+138 0		reserved2	BYTE	17	0	
+139 0		reserved3	BYTE	17	0	
+144 0	sys_flag_types\sys_flag_types	MBS_NODE_STATUS	1120	4	USER	STRUCT				
+145 0		ModbusRequestCnt	DWORD	19	0	
+146 0		ModbusExceptionCnt	DWORD	19	0	
+147 0		Flags	DWORD	19	0	
+148 0		reserved	DWORD	19	0	
+153 0	sys_flag_types\sys_flag_types	OPCUA_STATUS_INFO	1121	5	USER	STRUCT				
+154 0		restartCount	UDINT	8	0	
+155 0		monitoredVariablesCount	UDINT	8	0	
+156 0		sessionsCount	UDINT	8	0	
+157 0		isServerEnabled	UDINT	8	0	
+158 0		isLicensePresent	UDINT	8	0	
+163 0	sys_flag_types\sys_flag_types	IEC61850_TIMESTAMP	1122	3	USER	STRUCT				
+164 0		Seconds	DWORD	19	0	
+165 0		Fractions	DWORD	19	0	
+166 0		TimeQuality	DWORD	19	0	
+171 0	sys_flag_types\sys_flag_types	PROFISAFE_DIAG_HEADER	1123	4	USER	STRUCT				
+172 0		NumberOfFConn	UINT	7	0	
+173 0		PLCHostStatusByte	BYTE	17	0	
+174 0		SPNSAgentStatusByte	BYTE	17	0	
+175 0		CycleCount	UINT	7	0	
+178 0	sys_flag_types\sys_flag_types	F_MESSAGE	1124	1	USER	ARRAY	BYTE	17			
+178 0			0	15	
+180 0	sys_flag_types\sys_flag_types	F_DEVICE_DIAG	1125	6	USER	STRUCT				
+181 0		FAddress	WORD	18	0	
+182 0		F_WD_Time	WORD	18	0	
+183 0		F_DataLenIn	BYTE	17	0	
+184 0		F_MessageIn	F_MESSAGE	1124	0	
+185 0		F_DataLenOut	BYTE	17	0	
+186 0		F_MessageOut	F_MESSAGE	1124	0	
+189 0	sys_flag_types\sys_flag_types	DEVICE_DIAG_LIST	1126	1	USER	ARRAY	F_DEVICE_DIAG	1125			
+189 0			0	255	
+191 0	sys_flag_types\sys_flag_types	PROFISAFE_DIAG	1127	2	USER	STRUCT				
+192 0		ProfisafeDiagHeader	PROFISAFE_DIAG_HEADER	1123	0	
+193 0		FDeviceDiagnostics	DEVICE_DIAG_LIST	1126	0	
+198 0	sys_flag_types\sys_flag_types	PROFISAFE_RECORD	1128	8	USER	STRUCT				
+199 0		CodeName	DWORD	19	0	
+200 0		ProfiSafeDiagBitField	DWORD	19	0	
+201 0		SrtMin	UINT	7	0	
+202 0		SrtMax	UINT	7	0	
+203 0		SrtCur	UINT	7	0	
+204 0		FWdTime	UINT	7	0	
+205 0		ValidReg	UINT	7	0	
+206 0		Reserved	UINT	7	0	
+209 0	sys_flag_types\sys_flag_types	PROFISAFE_RECORD_ARRAY	1129	1	USER	ARRAY	PROFISAFE_RECORD	1128			
+209 0			0	299	
+211 0	sys_flag_types\sys_flag_types	PROFISAFE_DIAG_OUT	1130	4	USER	STRUCT				
+212 0		MaxNumberOfProfiSafeRecords	UINT	7	0	
+213 0		NumberOfProfiSafeRecords	UINT	7	0	
+214 0		ProfiSafeRecord	PROFISAFE_RECORD_ARRAY	1129	0	
+215 0		ProfiSafeGlobalRecord	DWORD	19	0	
+3 0	compile\compile	ensure_compiled	1131	1	USER	ARRAY	BOOL	1			
+3 0			0	1	

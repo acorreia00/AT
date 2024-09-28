@@ -1,0 +1,4 @@
+PROGRAM	GrafcetPEm			PT=1	GrafcetPEm	HIDDEN=0	
+PROGRAM	GrafcetPreparacaoMesa			PT=1	GrafcetPreparacaoMesa	HIDDEN=0	<1>
+PROGRAM	GrafcetManipulador			PT=1	GrafcetManipulador	HIDDEN=0	
+PROGRAM	Main			PT=1	Main	HIDDEN=0	

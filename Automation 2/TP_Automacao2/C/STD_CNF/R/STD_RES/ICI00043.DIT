@@ -1,0 +1,1198 @@
+(*
+T: PROGRAM RS232
+FW: NO
+CI#: 43
+QSL: 198
+QVE: 198
+QVPC: 198
+QPar: 0
+QFBI: 8
+*)
+@V 1 6 0
+RS232_INIT_1	1	VAR	@FB:47
+		     
+
+;
+
+@V 1 7 0
+RS232_SEND_1	2	VAR	@FB:46
+		     
+
+;
+
+@V 1 8 0
+RS232_RECEIVE_1	3	VAR	@FB:50
+		     
+
+;
+
+@V 1 9 0
+params	4	VAR	@TYP:1024
+		     
+
+;
+
+@V 1 14 0
+RMessage	5	VAR_EXTERNAL	@TYP:1025
+@RV 57		     
+
+;
+
+@V 1 15 0
+Message_str	6	VAR_EXTERNAL	@STR:0
+@RV 55		     
+
+;
+
+@V 1 20 0
+err	7	VAR	@TYP:1
+		     
+
+;
+
+@V 1 21 0
+stat	8	VAR	@TYP:18
+		     
+
+;
+
+@V 1 22 0
+done	9	VAR	@TYP:1
+		     
+
+;
+
+@V 1 23 0
+err2	10	VAR	@TYP:1
+		     
+
+;
+
+@V 1 24 0
+stat2	11	VAR	@TYP:18
+		     
+
+;
+
+@V 1 25 0
+count	12	VAR	@TYP:3
+		     
+
+;
+
+@V 1 26 0
+emp	13	VAR	@TYP:1
+		     
+
+;
+
+@V 1 27 0
+done3	14	VAR	@TYP:1
+		     
+
+;
+
+@V 1 28 0
+err3	15	VAR	@TYP:1
+		     
+
+;
+
+@V 1 29 0
+stat3	16	VAR	@TYP:18
+		     
+
+;
+
+@V 1 30 0
+not_emp	17	VAR	@TYP:1
+		     
+
+;
+
+@V 1 31 0
+full	18	VAR	@TYP:1
+		     
+
+;
+
+@V 1 32 0
+rec_count	19	VAR	@TYP:3
+		     
+
+;
+
+@V 1 33 0
+dat_count	20	VAR	@TYP:3
+		     
+
+;
+
+@V 1 34 0
+var1	21	VAR	@TYP:3
+		     
+
+;
+
+@V 1 39 0
+SendRequest	22	VAR_EXTERNAL	@TYP:1
+@RV 52		     
+
+;
+
+@V 1 40 0
+SMessage	23	VAR_EXTERNAL	@TYP:1025
+@RV 58		     
+
+;
+
+@V 1 41 0
+INITCOMM	24	VAR_EXTERNAL	@TYP:1
+@RV 51		     
+
+;
+
+@V 1 42 0
+DataCount	25	VAR_EXTERNAL	@TYP:3
+@RV 56		     
+
+;
+
+@V 1 47 0
+TON_100	26	VAR	@FB:38
+		     
+
+;
+
+@V 1 48 0
+TON_101	27	VAR	@FB:38
+		     
+
+;
+
+@V 1 53 0
+Contagem	28	VAR_EXTERNAL	@TYP:3
+@RV 69		     
+
+;
+
+@V 1 54 0
+RS232Mensagem0	29	VAR_EXTERNAL	@STR:0
+@RV 75		     
+
+;
+
+@V 1 55 0
+RS232Mensagem1	30	VAR_EXTERNAL	@STR:0
+@RV 76		     
+
+;
+
+@V 1 56 0
+RS232Mensagem2	31	VAR_EXTERNAL	@STR:0
+@RV 77		     
+
+;
+
+@V 1 57 0
+RS232Mensagem3	32	VAR_EXTERNAL	@STR:0
+@RV 78		     
+
+;
+
+@V 1 58 0
+RS232Mensagem5	33	VAR_EXTERNAL	@STR:0
+@RV 79		     
+
+;
+
+@V 1 59 0
+RS232Mensagem4	34	VAR_EXTERNAL	@STR:0
+@RV 80		     
+
+;
+
+@V 1 60 0
+RS232MensagemEnviar	35	VAR_EXTERNAL	@STR:0
+@RV 81		     
+
+;
+
+@V 1 61 0
+RS232Mensagem6	36	VAR_EXTERNAL	@STR:0
+@RV 90		     
+
+;
+
+@V 1 62 0
+RS232Mensagem7	37	VAR_EXTERNAL	@STR:0
+@RV 91		     
+
+;
+
+@V 1 63 0
+RS232Mensagem8	38	VAR_EXTERNAL	@STR:0
+@RV 94		     
+
+;
+
+@V 1 64 0
+RS232Mensagem9	39	VAR_EXTERNAL	@STR:0
+@RV 96		     
+
+;
+
+@V 1 65 0
+RS232Mensagem10	40	VAR_EXTERNAL	@STR:0
+@RV 97		     
+
+;
+
+@V 1 66 0
+RS232Mensagem11	41	VAR_EXTERNAL	@STR:0
+@RV 100		     
+
+;
+
+@V 1 67 0
+RS232Mensagem12	42	VAR_EXTERNAL	@STR:0
+@RV 101		     
+
+;
+
+@V 1 68 0
+xComm_INPUT1	43	VAR_EXTERNAL	@TYP:1
+@RV 111		     
+
+;
+
+@V 1 69 0
+xComm_INPUT2	44	VAR_EXTERNAL	@TYP:1
+@RV 112		     
+
+;
+
+@V 1 70 0
+xComm_INPUT3	45	VAR_EXTERNAL	@TYP:1
+@RV 113		     
+
+;
+
+@V 1 71 0
+xComm_INPUT4	46	VAR_EXTERNAL	@TYP:1
+@RV 114		     
+
+;
+
+@V 1 72 0
+xComm_INPUT5	47	VAR_EXTERNAL	@TYP:1
+@RV 115		     
+
+;
+
+@V 1 73 0
+xComm_INPUT6	48	VAR_EXTERNAL	@TYP:1
+@RV 116		     
+
+;
+
+@V 1 74 0
+xComm_INPUT7	49	VAR_EXTERNAL	@TYP:1
+@RV 117		     
+
+;
+
+@V 1 75 0
+xComm_INPUT8	50	VAR_EXTERNAL	@TYP:1
+@RV 118		     
+
+;
+
+@V 1 76 0
+xComm_INPUT9	51	VAR_EXTERNAL	@TYP:1
+@RV 231		     
+
+;
+
+@V 1 81 0
+ValorWord	52	VAR	@TYP:18
+		     
+@TYP:18# 00#8000
+;
+
+@V 1 86 0
+xComm_INPUT10	53	VAR_EXTERNAL	@TYP:1
+@RV 232		     
+
+;
+
+@V 1 87 0
+xComm_INPUT11	54	VAR_EXTERNAL	@TYP:1
+@RV 233		     
+
+;
+
+@V 1 88 0
+xComm_INPUT12	55	VAR_EXTERNAL	@TYP:1
+@RV 234		     
+
+;
+
+@V 1 89 0
+xComm_INPUT13	56	VAR_EXTERNAL	@TYP:1
+@RV 235		     
+
+;
+
+@V 1 90 0
+xComm_INPUT14	57	VAR_EXTERNAL	@TYP:1
+@RV 236		     
+
+;
+
+@V 1 91 0
+xComm_INPUT15	58	VAR_EXTERNAL	@TYP:1
+@RV 237		     
+
+;
+
+@V 1 92 0
+xComm_INPUT16	59	VAR_EXTERNAL	@TYP:1
+@RV 238		     
+
+;
+
+@V 1 93 0
+xComm_INPUT17	60	VAR_EXTERNAL	@TYP:1
+@RV 239		     
+
+;
+
+@V 1 94 0
+xComm_INPUT18	61	VAR_EXTERNAL	@TYP:1
+@RV 240		     
+
+;
+
+@V 1 95 0
+xComm_INPUT19	62	VAR_EXTERNAL	@TYP:1
+@RV 241		     
+
+;
+
+@V 1 96 0
+xComm_INPUT20	63	VAR_EXTERNAL	@TYP:1
+@RV 242		     
+
+;
+
+@V 1 97 0
+xComm_INPUT21	64	VAR_EXTERNAL	@TYP:1
+@RV 243		     
+
+;
+
+@V 1 98 0
+xComm_INPUT22	65	VAR_EXTERNAL	@TYP:1
+@RV 244		     
+
+;
+
+@V 1 99 0
+xComm_INPUT23	66	VAR_EXTERNAL	@TYP:1
+@RV 245		     
+
+;
+
+@V 1 100 0
+xComm_INPUT24	67	VAR_EXTERNAL	@TYP:1
+@RV 246		     
+
+;
+
+@V 1 101 0
+xComm_INPUT25	68	VAR_EXTERNAL	@TYP:1
+@RV 247		     
+
+;
+
+@V 1 102 0
+xComm_INPUT26	69	VAR_EXTERNAL	@TYP:1
+@RV 248		     
+
+;
+
+@V 1 103 0
+xComm_INPUT27	70	VAR_EXTERNAL	@TYP:1
+@RV 249		     
+
+;
+
+@V 1 104 0
+xComm_INPUT28	71	VAR_EXTERNAL	@TYP:1
+@RV 250		     
+
+;
+
+@V 1 105 0
+xComm_INPUT29	72	VAR_EXTERNAL	@TYP:1
+@RV 251		     
+
+;
+
+@V 1 106 0
+xComm_INPUT30	73	VAR_EXTERNAL	@TYP:1
+@RV 252		     
+
+;
+
+@V 1 107 0
+xComm_INPUT31	74	VAR_EXTERNAL	@TYP:1
+@RV 253		     
+
+;
+
+@V 1 108 0
+xComm_INPUT32	75	VAR_EXTERNAL	@TYP:1
+@RV 254		     
+
+;
+
+@V 1 109 0
+RS232INPUTWORD1	76	VAR_EXTERNAL	@TYP:18
+@RV 228		     
+
+;
+
+@V 1 110 0
+RS232INPUTWORD2	77	VAR_EXTERNAL	@TYP:18
+@RV 229		     
+
+;
+
+@V 1 111 0
+xComm_OUTPUT1	78	VAR_EXTERNAL	@TYP:1
+@RV 255		     
+
+;
+
+@V 1 112 0
+xComm_OUTPUT2	79	VAR_EXTERNAL	@TYP:1
+@RV 256		     
+
+;
+
+@V 1 113 0
+xComm_OUTPUT3	80	VAR_EXTERNAL	@TYP:1
+@RV 257		     
+
+;
+
+@V 1 114 0
+xComm_OUTPUT4	81	VAR_EXTERNAL	@TYP:1
+@RV 258		     
+
+;
+
+@V 1 115 0
+xComm_OUTPUT5	82	VAR_EXTERNAL	@TYP:1
+@RV 259		     
+
+;
+
+@V 1 116 0
+xComm_OUTPUT6	83	VAR_EXTERNAL	@TYP:1
+@RV 260		     
+
+;
+
+@V 1 117 0
+xComm_OUTPUT7	84	VAR_EXTERNAL	@TYP:1
+@RV 261		     
+
+;
+
+@V 1 118 0
+xComm_OUTPUT8	85	VAR_EXTERNAL	@TYP:1
+@RV 262		     
+
+;
+
+@V 1 119 0
+xComm_OUTPUT9	86	VAR_EXTERNAL	@TYP:1
+@RV 263		     
+
+;
+
+@V 1 120 0
+xComm_OUTPUT10	87	VAR_EXTERNAL	@TYP:1
+@RV 264		     
+
+;
+
+@V 1 121 0
+xComm_OUTPUT11	88	VAR_EXTERNAL	@TYP:1
+@RV 265		     
+
+;
+
+@V 1 122 0
+xComm_OUTPUT13	89	VAR_EXTERNAL	@TYP:1
+@RV 267		     
+
+;
+
+@V 1 123 0
+xComm_OUTPUT12	90	VAR_EXTERNAL	@TYP:1
+@RV 266		     
+
+;
+
+@V 1 124 0
+xComm_OUTPUT14	91	VAR_EXTERNAL	@TYP:1
+@RV 268		     
+
+;
+
+@V 1 125 0
+xComm_OUTPUT15	92	VAR_EXTERNAL	@TYP:1
+@RV 269		     
+
+;
+
+@V 1 126 0
+xComm_OUTPUT16	93	VAR_EXTERNAL	@TYP:1
+@RV 270		     
+
+;
+
+@V 1 127 0
+RS232INPUTWORD3	94	VAR_EXTERNAL	@TYP:18
+@RV 230		     
+
+;
+
+@V 1 128 0
+xComm_OUTPUT17	95	VAR_EXTERNAL	@TYP:1
+@RV 271		     
+
+;
+
+@V 1 129 0
+xComm_OUTPUT18	96	VAR_EXTERNAL	@TYP:1
+@RV 272		     
+
+;
+
+@V 1 130 0
+xComm_OUTPUT19	97	VAR_EXTERNAL	@TYP:1
+@RV 273		     
+
+;
+
+@V 1 131 0
+xComm_OUTPUT20	98	VAR_EXTERNAL	@TYP:1
+@RV 274		     
+
+;
+
+@V 1 132 0
+xComm_OUTPUT21	99	VAR_EXTERNAL	@TYP:1
+@RV 275		     
+
+;
+
+@V 1 133 0
+xComm_OUTPUT22	100	VAR_EXTERNAL	@TYP:1
+@RV 276		     
+
+;
+
+@V 1 134 0
+xComm_OUTPUT23	101	VAR_EXTERNAL	@TYP:1
+@RV 277		     
+
+;
+
+@V 1 135 0
+xComm_OUTPUT24	102	VAR_EXTERNAL	@TYP:1
+@RV 278		     
+
+;
+
+@V 1 136 0
+xComm_OUTPUT25	103	VAR_EXTERNAL	@TYP:1
+@RV 279		     
+
+;
+
+@V 1 137 0
+xComm_OUTPUT26	104	VAR_EXTERNAL	@TYP:1
+@RV 280		     
+
+;
+
+@V 1 138 0
+xComm_OUTPUT27	105	VAR_EXTERNAL	@TYP:1
+@RV 281		     
+
+;
+
+@V 1 139 0
+xComm_OUTPUT28	106	VAR_EXTERNAL	@TYP:1
+@RV 282		     
+
+;
+
+@V 1 140 0
+xComm_OUTPUT29	107	VAR_EXTERNAL	@TYP:1
+@RV 283		     
+
+;
+
+@V 1 141 0
+xComm_OUTPUT30	108	VAR_EXTERNAL	@TYP:1
+@RV 284		     
+
+;
+
+@V 1 142 0
+xComm_OUTPUT31	109	VAR_EXTERNAL	@TYP:1
+@RV 285		     
+
+;
+
+@V 1 143 0
+xComm_OUTPUT32	110	VAR_EXTERNAL	@TYP:1
+@RV 286		     
+
+;
+
+@V 1 148 0
+RS232INPUTWORD4	111	VAR	@TYP:18
+		     
+
+;
+
+@V 1 153 0
+xComm_RS232ANALOGINPUT1	112	VAR_EXTERNAL	@TYP:18
+@RV 287		     
+
+;
+
+@V 1 154 0
+xComm_RS232ANALOGOUTPUT1	113	VAR_EXTERNAL	@TYP:18
+@RV 288		     
+
+;
+
+@V 1 159 0
+RS232INPUTWORD5	114	VAR	@TYP:18
+		     
+
+;
+
+@V 1 164 0
+xComm_RS232ANALOGINPUT2	115	VAR_EXTERNAL	@TYP:18
+@RV 289		     
+
+;
+
+@V 1 169 0
+RS232INPUTWORD6	116	VAR	@TYP:18
+		     
+
+;
+
+@V 1 174 0
+xComm_RS232ANALOGOUTPUT2	117	VAR_EXTERNAL	@TYP:18
+@RV 290		     
+
+;
+
+@V 1 179 0
+RS232INPUTWORD7	118	VAR	@TYP:18
+		     
+
+;
+
+@V 1 184 0
+xComm_RS232RESERVA1	119	VAR_EXTERNAL	@TYP:18
+@RV 291		     
+
+;
+
+@V 1 189 0
+RS232INPUTWORD8	120	VAR	@TYP:18
+		     
+
+;
+
+@V 1 194 0
+xComm_RS232RESERVA2	121	VAR_EXTERNAL	@TYP:18
+@RV 292		     
+
+;
+
+@V 1 199 0
+RS232INPUTWORD9	122	VAR	@TYP:18
+		     
+
+;
+
+@V 1 204 0
+xComm_RS232RESERVA3	123	VAR_EXTERNAL	@TYP:18
+@RV 293		     
+
+;
+
+@V 1 209 0
+RS232INPUTWORD10	124	VAR	@TYP:18
+		     
+
+;
+
+@V 1 214 0
+xComm_RS232RESERVA4	125	VAR_EXTERNAL	@TYP:18
+@RV 294		     
+
+;
+
+@V 1 219 0
+RS232INPUTWORD11	126	VAR	@TYP:18
+		     
+
+;
+
+@V 1 224 0
+xComm_RS232RESERVA5	127	VAR_EXTERNAL	@TYP:18
+@RV 295		     
+
+;
+
+@V 1 225 0
+xComm_RS232RESERVA6	128	VAR_EXTERNAL	@TYP:18
+@RV 296		     
+
+;
+
+@V 1 230 0
+RS232INPUTWORD12	129	VAR	@TYP:18
+		     
+
+;
+
+@V 1 231 0
+RS232INPUTWORD13	130	VAR	@TYP:18
+		     
+
+;
+
+@V 1 236 0
+xComm_RS232RESERVA7	131	VAR_EXTERNAL	@TYP:18
+@RV 297		     
+
+;
+
+@V 1 237 0
+xComm_RS232RESERVA8	132	VAR_EXTERNAL	@TYP:18
+@RV 298		     
+
+;
+
+@V 1 242 0
+RS232INPUTWORD14	133	VAR	@TYP:18
+		     
+
+;
+
+@V 1 243 0
+RS232INPUTWORD15	134	VAR	@TYP:18
+		     
+
+;
+
+@V 1 248 0
+xComm_RS232RESERVA9	135	VAR_EXTERNAL	@TYP:18
+@RV 299		     
+
+;
+
+@V 1 249 0
+xComm_RS232RESERVA10	136	VAR_EXTERNAL	@TYP:18
+@RV 300		     
+
+;
+
+@V 1 254 0
+RS232INPUTWORD16	137	VAR	@TYP:18
+		     
+
+;
+
+@V 1 255 0
+RS232INPUTWORD17	138	VAR	@TYP:18
+		     
+
+;
+
+@V 1 260 0
+xComm_RS232RESERVA11	139	VAR_EXTERNAL	@TYP:18
+@RV 301		     
+
+;
+
+@V 1 261 0
+xComm_RS232RESERVA12	140	VAR_EXTERNAL	@TYP:18
+@RV 302		     
+
+;
+
+@V 1 266 0
+RS232INPUTWORD18	141	VAR	@TYP:18
+		     
+
+;
+
+@V 1 267 0
+RS232INPUTWORD19	142	VAR	@TYP:18
+		     
+
+;
+
+@V 1 268 0
+Num_Msg_enviar	143	VAR	@TYP:3
+		     
+@TYP:3# 00#0009
+;
+
+@V 1 273 0
+RS232Mensagem13	144	VAR_EXTERNAL	@STR:0
+@RV 119		     
+
+;
+
+@V 1 274 0
+RS232Mensagem14	145	VAR_EXTERNAL	@STR:0
+@RV 120		     
+
+;
+
+@V 1 275 0
+RS232Mensagem15	146	VAR_EXTERNAL	@STR:0
+@RV 121		     
+
+;
+
+@V 1 276 0
+RS232Mensagem16	147	VAR_EXTERNAL	@STR:0
+@RV 122		     
+
+;
+
+@V 1 277 0
+RS232Mensagem17	148	VAR_EXTERNAL	@STR:0
+@RV 123		     
+
+;
+
+@V 1 278 0
+RS232Mensagem18	149	VAR_EXTERNAL	@STR:0
+@RV 124		     
+
+;
+
+@V 1 279 0
+RS232Mensagem19	150	VAR_EXTERNAL	@STR:0
+@RV 125		     
+
+;
+
+@V 1 284 0
+TON_200	151	VAR	@FB:38
+		     
+
+;
+
+@V 1 285 0
+CTU_100	152	VAR	@FB:40
+		     
+
+;
+
+@V 1 290 0
+PLCMODE_RUN	153	VAR_EXTERNAL	@TYP:1
+@RV 130		     
+
+;
+
+@V 1 295 0
+Valid_INITCOMM	154	VAR	@TYP:1
+		     
+
+;
+
+@V 1 296 0
+TON_102	155	VAR	@FB:38
+		     
+
+;
+
+@V 1 301 0
+RS232INPUTWORD0	156	VAR_EXTERNAL	@TYP:18
+@RV 227		     
+
+;
+
+@V 1 302 0
+SE	157	VAR_EXTERNAL	@TYP:1
+@RV 303		     
+
+;
+
+@V 1 303 0
+SA	158	VAR_EXTERNAL	@TYP:1
+@RV 304		     
+
+;
+
+@V 1 304 0
+SP1	159	VAR_EXTERNAL	@TYP:1
+@RV 305		     
+
+;
+
+@V 1 305 0
+SP2	160	VAR_EXTERNAL	@TYP:1
+@RV 306		     
+
+;
+
+@V 1 306 0
+FCCA	161	VAR_EXTERNAL	@TYP:1
+@RV 307		     
+
+;
+
+@V 1 307 0
+SP3	162	VAR_EXTERNAL	@TYP:1
+@RV 308		     
+
+;
+
+@V 1 308 0
+SP4	163	VAR_EXTERNAL	@TYP:1
+@RV 309		     
+
+;
+
+@V 1 309 0
+FCCD	164	VAR_EXTERNAL	@TYP:1
+@RV 311		     
+
+;
+
+@V 1 310 0
+FCCBE	165	VAR_EXTERNAL	@TYP:1
+@RV 310		     
+
+;
+
+@V 1 311 0
+FCCBD	166	VAR_EXTERNAL	@TYP:1
+@RV 312		     
+
+;
+
+@V 1 312 0
+FCCCS	167	VAR_EXTERNAL	@TYP:1
+@RV 313		     
+
+;
+
+@V 1 313 0
+FCCCI	168	VAR_EXTERNAL	@TYP:1
+@RV 314		     
+
+;
+
+@V 1 314 0
+SP5	169	VAR_EXTERNAL	@TYP:1
+@RV 315		     
+
+;
+
+@V 1 315 0
+SP6	170	VAR_EXTERNAL	@TYP:1
+@RV 316		     
+
+;
+
+@V 1 316 0
+FCCES	171	VAR_EXTERNAL	@TYP:1
+@RV 317		     
+
+;
+
+@V 1 317 0
+FCCEI	172	VAR_EXTERNAL	@TYP:1
+@RV 318		     
+
+;
+
+@V 1 318 0
+FCG	173	VAR_EXTERNAL	@TYP:1
+@RV 319		     
+
+;
+
+@V 1 319 0
+FCM4C	174	VAR_EXTERNAL	@TYP:1
+@RV 320		     
+
+;
+
+@V 1 320 0
+FCM4E	175	VAR_EXTERNAL	@TYP:1
+@RV 321		     
+
+;
+
+@V 1 321 0
+FCM4D	176	VAR_EXTERNAL	@TYP:1
+@RV 322		     
+
+;
+
+@V 1 322 0
+SCA	177	VAR_EXTERNAL	@TYP:1
+@RV 323		     
+
+;
+
+@V 1 323 0
+SCB	178	VAR_EXTERNAL	@TYP:1
+@RV 324		     
+
+;
+
+@V 1 324 0
+F1	179	VAR_EXTERNAL	@TYP:1
+@RV 325		     
+
+;
+
+@V 1 325 0
+P1	180	VAR_EXTERNAL	@TYP:1
+@RV 326		     
+
+;
+
+@V 1 326 0
+KM1	181	VAR_EXTERNAL	@TYP:1
+@RV 327		     
+
+;
+
+@V 1 327 0
+KA1	182	VAR_EXTERNAL	@TYP:1
+@RV 328		     
+
+;
+
+@V 1 328 0
+KD1	183	VAR_EXTERNAL	@TYP:1
+@RV 329		     
+
+;
+
+@V 1 329 0
+KM2	184	VAR_EXTERNAL	@TYP:1
+@RV 330		     
+
+;
+
+@V 1 330 0
+KC1	185	VAR_EXTERNAL	@TYP:1
+@RV 331		     
+
+;
+
+@V 1 331 0
+KC2	186	VAR_EXTERNAL	@TYP:1
+@RV 332		     
+
+;
+
+@V 1 332 0
+KB1	187	VAR_EXTERNAL	@TYP:1
+@RV 333		     
+
+;
+
+@V 1 333 0
+KB2	188	VAR_EXTERNAL	@TYP:1
+@RV 334		     
+
+;
+
+@V 1 334 0
+KM3	189	VAR_EXTERNAL	@TYP:1
+@RV 335		     
+
+;
+
+@V 1 335 0
+KE1	190	VAR_EXTERNAL	@TYP:1
+@RV 336		     
+
+;
+
+@V 1 336 0
+KE2	191	VAR_EXTERNAL	@TYP:1
+@RV 337		     
+
+;
+
+@V 1 337 0
+KG	192	VAR_EXTERNAL	@TYP:1
+@RV 338		     
+
+;
+
+@V 1 338 0
+H1	193	VAR_EXTERNAL	@TYP:1
+@RV 339		     
+
+;
+
+@V 1 339 0
+H2	194	VAR_EXTERNAL	@TYP:1
+@RV 340		     
+
+;
+
+@V 1 340 0
+KM4E	195	VAR_EXTERNAL	@TYP:1
+@RV 341		     
+
+;
+
+@V 1 341 0
+KM4D	196	VAR_EXTERNAL	@TYP:1
+@RV 342		     
+
+;
+
+@V 1 342 0
+SAP	197	VAR_EXTERNAL	@TYP:18
+@RV 343		     
+
+;
+
+@V 1 343 0
+SQ1	198	VAR_EXTERNAL	@TYP:18
+@RV 345		     
+
+;
+

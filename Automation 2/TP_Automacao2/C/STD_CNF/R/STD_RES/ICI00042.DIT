@@ -1,0 +1,172 @@
+(*
+T: PROGRAM CodigoRS232
+FW: NO
+CI#: 42
+QSL: 27
+QVE: 27
+QVPC: 27
+QPar: 0
+QFBI: 0
+*)
+@V 1 6 0
+RS232MensagemEnviar	1	VAR_EXTERNAL	@STR:0
+@RV 81		     
+
+;
+
+@V 1 7 0
+Contagem	2	VAR_EXTERNAL	@TYP:3
+@RV 69		     
+
+;
+
+@V 1 8 0
+RS232Mensagem12	3	VAR_EXTERNAL	@STR:0
+@RV 101		     
+
+;
+
+@V 1 9 0
+RS232Mensagem11	4	VAR_EXTERNAL	@STR:0
+@RV 100		     
+
+;
+
+@V 1 10 0
+RS232Mensagem10	5	VAR_EXTERNAL	@STR:0
+@RV 97		     
+
+;
+
+@V 1 11 0
+RS232Mensagem9	6	VAR_EXTERNAL	@STR:0
+@RV 96		     
+
+;
+
+@V 1 12 0
+RS232Mensagem8	7	VAR_EXTERNAL	@STR:0
+@RV 94		     
+
+;
+
+@V 1 13 0
+RS232Mensagem7	8	VAR_EXTERNAL	@STR:0
+@RV 91		     
+
+;
+
+@V 1 14 0
+RS232Mensagem6	9	VAR_EXTERNAL	@STR:0
+@RV 90		     
+
+;
+
+@V 1 15 0
+RS232Mensagem5	10	VAR_EXTERNAL	@STR:0
+@RV 79		     
+
+;
+
+@V 1 16 0
+RS232Mensagem4	11	VAR_EXTERNAL	@STR:0
+@RV 80		     
+
+;
+
+@V 1 17 0
+RS232Mensagem3	12	VAR_EXTERNAL	@STR:0
+@RV 78		     
+
+;
+
+@V 1 18 0
+RS232Mensagem2	13	VAR_EXTERNAL	@STR:0
+@RV 77		     
+
+;
+
+@V 1 19 0
+RS232Mensagem1	14	VAR_EXTERNAL	@STR:0
+@RV 76		     
+
+;
+
+@V 1 20 0
+RS232Mensagem0	15	VAR_EXTERNAL	@STR:0
+@RV 75		     
+
+;
+
+@V 1 21 0
+BTn0	16	VAR_EXTERNAL	@TYP:1
+@RV 103		     
+
+;
+
+@V 1 22 0
+RMessage	17	VAR_EXTERNAL	@TYP:1025
+@RV 57		     
+
+;
+
+@V 1 23 0
+ValorB	18	VAR_EXTERNAL	@TYP:17
+@RV 110		     
+
+;
+
+@V 1 24 0
+RS232Mensagem13	19	VAR_EXTERNAL	@STR:0
+@RV 119		     
+
+;
+
+@V 1 25 0
+RS232Mensagem14	20	VAR_EXTERNAL	@STR:0
+@RV 120		     
+
+;
+
+@V 1 26 0
+RS232Mensagem15	21	VAR_EXTERNAL	@STR:0
+@RV 121		     
+
+;
+
+@V 1 27 0
+RS232Mensagem16	22	VAR_EXTERNAL	@STR:0
+@RV 122		     
+
+;
+
+@V 1 28 0
+RS232Mensagem17	23	VAR_EXTERNAL	@STR:0
+@RV 123		     
+
+;
+
+@V 1 29 0
+RS232Mensagem18	24	VAR_EXTERNAL	@STR:0
+@RV 124		     
+
+;
+
+@V 1 30 0
+RS232Mensagem19	25	VAR_EXTERNAL	@STR:0
+@RV 125		     
+
+;
+
+@V 1 31 0
+valor0	26	VAR_EXTERNAL	@TYP:17
+@RV 109		     
+
+;
+
+@V 1 32 0
+valor1	27	VAR_EXTERNAL	@TYP:17
+@RV 105		     
+
+;
+

@@ -1,0 +1,18 @@
+TYPE
+T_RS232 :    STRUCT
+	protocol        :INT; (*1,1*)
+	baudrate        :INT; (*1,2*)
+	databits        :INT; (*1,3*)
+	stopbits        :INT; (*1,4*)
+	flowcontrol     :INT; (*1,5*)
+	error_pattern   :INT; (*1,6*)
+	first_delimiter :INT; (*1,7*)
+	second_delimiter:INT; (*1,8*)
+	XON_pattern     :INT; (*1,9*)
+	XOFF_pattern    :INT; (*1,10*)
+   END_STRUCT;
+END_TYPE
+
+TYPE
+ Tmessage : array [1..8] of BYTE;
+END_TYPE

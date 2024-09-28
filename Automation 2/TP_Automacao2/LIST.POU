@@ -1,0 +1,8 @@
+PROGRAM	Analogico			PT=1	Analogico	HIDDEN=0	
+PROGRAM	ParagemEmergenciaLadder			PT=1	ParagemEmergenciaLadder	HIDDEN=0	
+PROGRAM	ParagemEmergencia			PT=1	ParagemEmergencia	HIDDEN=0	
+PROGRAM	Armazenamento			PT=1	Armazenamento	HIDDEN=0	
+PROGRAM	Furacao			PT=1	Furacao	HIDDEN=0	
+PROGRAM	Main			PT=1	Main	HIDDEN=0	
+PROGRAM	RS232			PT=1	RS232	HIDDEN=0	
+PROGRAM	CodigoRS232			PT=1	CodigoRS232	HIDDEN=0	
